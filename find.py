@@ -1,10 +1,10 @@
 import scraping
-import settings
 
-def finder():
-    race = scraping.syussou()
+def finder(horce,race):
+    race = race
     # 教えてほしい馬settingsで決める
-    race2 = race[race["馬名"].str.contains(settings.horse)]
+    horce = horce
+    race2 = race[race["馬名"].str.contains(horce)]
     race_list = race2.index.to_list()
     house_num = race2["馬番"].to_list()
     course_list = []

@@ -1,5 +1,16 @@
 import datetime
-horse ="ヘニーヒューズ"
-today = ["20211228"]
-#dt = datetime.datetime.now()
-#today =dt.strftime("%Y%m%d")
+
+horse =["リーチザクラウン", "ディスクリートキャット","サトノアラジン"]
+#選択した種牡馬の買い条件を記述
+horse_F = [
+    "買い条件1: ダート1800m以上\n買い条件2: 芝1400m以下&2歳&牝馬&距離短縮以外", 
+    "買い条件1: 新馬以外\n買い条件2: ダート1300m以下&母父サンデー系以外\n買い条件3: 芝1600m以上&直線長&母父サンデー系or欧州型",
+    "買い条件1: 1400m以下&特に牝馬",
+    ]
+
+
+
+
+#today = ["20211228"]
+dt = datetime.datetime.now()
+today =[dt.strftime("%Y%m%d")]

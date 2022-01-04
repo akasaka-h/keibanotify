@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
  
 # ドライバーのフルパス
-#CHROMEDRIVER = "\\wsl$\\Ubuntu\\home\\haya1818\\chromedriver"
+#CHROMEDRIVER = "home/haya1818/chromedriver"
 # 改ページ（最大）
 PAGE_MAX = 2
 # 遷移間隔（秒）
